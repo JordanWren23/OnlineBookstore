@@ -1,0 +1,153 @@
+root {
+    display: block;
+}
+
+body {
+	font-family: verdana;
+    background-color:gray;
+
+}
+
+#banner{
+    width: 1000px;
+    height: 55px;
+    background-color: gray;
+    margin-left: 27px;
+    margin-bottom: 15px;
+	float: top;
+	padding: 15px;
+	font-size: 50px;
+	font-family: Century;
+
+}
+
+#top-header{
+	font-family: verdana;
+	margin-left: 650px;
+
+}
+
+
+#container {
+    background-color: gray;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    width: 1050px;
+    height: 450px;
+    position: relative;
+	font-family: verdana;
+
+
+}
+
+#menu ul{
+    margin-top: 5px;
+	margin-left: 22px;
+    list-style-type: none;
+    text-align: center;
+    font-family: verdana;
+    width: 975px;
+
+}
+
+#menu ul li{
+    display: block;
+	float:left;
+
+}
+
+#menu ul li a{
+    text-decoration:none;
+    padding: .3em 4.30em;
+    color: white;
+    background-color: #2d2d2d;
+
+}
+
+
+}
+
+#menu ul li a:hover{
+    color:black;
+    background-color: #4fb8ed;
+
+}
+
+#contents1 {
+    background-color: white;
+    height: 490px;
+    width:1030px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right:20px;
+    margin-bottom: 20px;
+    float: left;
+    font-family: tahoma;
+
+}
+
+
+h1 {
+    color: black;
+    background-color: #4fb8ed;
+    font-family: impact;
+
+    width: 200px;
+}
+
+#text {
+    margin-left: 5px;
+    margin-top: 4px;
+    margin-right: 5px;
+    font-size: 14px;
+    width: 300px;
+    height: 640px;
+    float: left;
+    color: black;
+    background-color: white;
+    font-family: tahoma;
+
+}
+
+#pic {
+    height: 640px;
+    width: 220px;
+    margin-left: 0px;
+    margin-right: 5px;
+    margin-top: 5px;
+    float: right;
+    background-color: white;
+    font-size: 11px;
+
+}
+
+
+#img_caption {
+    font-size: 8px;
+
+}
+
+select {
+    background-color: white;
+    font-family: verdana;
+}
+
+#selections{
+	width: 150px;
+
+}
+
+#selections option{
+	width: 150px;
+}
+
+input {
+    font-family: verdana;
+}
+
+#footer {
+    font-family: verdana;
+    font-size: 10px;
+}

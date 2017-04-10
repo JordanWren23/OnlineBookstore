@@ -4,10 +4,12 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Login</title>
+    <title>GOT Bookstore</title>
     <link rel="stylesheet" href="css/app.css">
   </head>
   <body>
+
+
     <div class="top-nav">
       <div class = "row">
         <div class = "columns large-6 medium-6">
@@ -42,40 +44,57 @@
   </div>
 </div>
 
-<div class="text-center">
-  <h2>Admin Login</h2>
-</div><br>
+<body>
 
-<form name ="login">
-  <div class="login">
-    <input type="text" placeholder="username" name="userid"><br>
-    <input type="password" placeholder="password" name="password"><br>
-    <input type="button" onclick="check(this.form)" value="Login"/>
+  <div>
+  <br>
+
+      <div id="container">
+
+          <div id="contents1">
+  <center>
+  <br>
+
+  <h2>Problem Desciption</h2>
+
+  <br>
+
+  <form name="htmlform" method="post">
+    <table width="460px">
+      <tr>
+        <td valign="top">
+        <label for="Problem">Problem Description *</label>
+
+        <td valign="top">
+        <textarea cols="50" rows="10"></textarea><br>
+        </td>
+      </tr>
+
+    </table>
+    </form>
+    <br>
+    <center>
+    <a href="Support.html"> < Back</a> |
+    <a href="Submit.html">Submit ></a><br>
+    <small>(*) All fields are required.</small> <br>
+    </center>
+    <br>
+    <br>
+         </center>
+              </div>
+
+          <div id="footer">
+              <center>Prices and offers are subject to change. © 2017 GOT, Inc. All rights reserved.</center>
+          </div>
+
+
+
+
+     </div>
   </div>
-</form>
-
-  <script language ="javascript">
-  function check(form){
-      if(form.userid.value == "Admin" && form.password.value == "password")
-      {
-        window.open('https://www.sandbox.paypal.com/webscr')
-      }
-      else
-        {
-          alert("Username or Password is incorrect. Try Again.")
-        }
-  }
-  </script>
 
 
-</div>
-<footer class="container-fluid alert alert-info">
-  <div class="container text-center">
-    <span>
-      Copyrights &copy; All Rights Reserved.
-    </span>
-  </div>
-</footer>
+
 
 
 <script src="bower_components/jquery/dist/jquery.js"></script>
